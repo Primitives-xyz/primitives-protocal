@@ -481,7 +481,6 @@ kinobi.accept(
     },
   })
 );
-
 // Render Rust.
 const crateDir = path.join(clientDir, "rust");
 const rustDir = path.join(clientDir, "rust", "src", "generated");
