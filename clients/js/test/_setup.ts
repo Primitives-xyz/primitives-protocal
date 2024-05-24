@@ -13,7 +13,7 @@ import {
   NodeArgsArgs,
   createTree as baseCreateTree,
   fetchMerkleTree,
-  findLeafAssetIdPda,
+  findLeafNodeOrEdgeIdPda,
   hashLeaf,
   mintNodeV1,
   primitivesProtractor,
@@ -79,7 +79,7 @@ export const mint = async (
 
   return {
     metadata,
-    assetId: findLeafAssetIdPda(context, { merkleTree, leafIndex }),
+    assetId: findLeafNodeOrEdgeIdPda(context, { merkleTree, leafIndex }),
     leafIndex,
     leaf: publicKey(
       hashLeaf(context, {

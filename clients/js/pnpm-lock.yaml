@@ -7,13 +7,13 @@ settings:
 dependencies:
   '@metaplex-foundation/digital-asset-standard-api':
     specifier: ^1.0.3
-    version: 1.0.3(@metaplex-foundation/umi@0.8.2)
+    version: 1.0.3(@metaplex-foundation/umi@0.8.10)
   '@metaplex-foundation/mpl-token-metadata':
     specifier: ^3.2.1
-    version: 3.2.1(@metaplex-foundation/umi@0.8.2)
+    version: 3.2.1(@metaplex-foundation/umi@0.8.10)
   '@metaplex-foundation/mpl-toolbox':
     specifier: ^0.9.4
-    version: 0.9.4(@metaplex-foundation/umi@0.8.2)
+    version: 0.9.4(@metaplex-foundation/umi@0.8.10)
   '@noble/hashes':
     specifier: ^1.4.0
     version: 1.4.0
@@ -26,20 +26,20 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1
   '@metaplex-foundation/umi':
-    specifier: ^0.8.2
-    version: 0.8.2
+    specifier: ^0.8.9
+    version: 0.8.10
   '@metaplex-foundation/umi-bundle-tests':
     specifier: ^0.8.3
-    version: 0.8.3(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
+    version: 0.8.3(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
   '@solana/web3.js':
     specifier: ^1.73.0
     version: 1.73.0
   '@typescript-eslint/eslint-plugin':
     specifier: ^5.0.0
-    version: 5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.6.2)
+    version: 5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.9.5)
   '@typescript-eslint/parser':
     specifier: ^5.46.1
-    version: 5.46.1(eslint@8.0.1)(typescript@4.6.2)
+    version: 5.46.1(eslint@8.0.1)(typescript@4.9.5)
   ava:
     specifier: ^5.1.0
     version: 5.1.0(@ava/typescript@3.0.1)
@@ -69,7 +69,7 @@ devDependencies:
     version: 3.0.2
   typedoc:
     specifier: ^0.23.16
-    version: 0.23.16(typescript@4.6.2)
+    version: 0.23.16(typescript@4.9.5)
   typedoc-plugin-expand-object-like-types:
     specifier: ^0.1.1
     version: 0.1.1(typedoc@0.23.16)
@@ -78,7 +78,7 @@ devDependencies:
     version: 1.0.0(typedoc@0.23.16)
   typescript:
     specifier: ^4.6.2
-    version: 4.6.2
+    version: 4.9.5
   vercel:
     specifier: ^28.16.0
     version: 28.16.0(@types/node@14.18.33)
@@ -2048,69 +2048,69 @@ packages:
       - supports-color
     dev: true
 
-  /@metaplex-foundation/digital-asset-standard-api@1.0.3(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/digital-asset-standard-api@1.0.3(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-uWrKF3lGfDt5KB1xV5BfPFQnbq4GvcNsN2/YYdgFW6+iNplhzXibbYjrZDFRv+WcE49U8JKbxK/yDW+Jc6K9Cw==}
     peerDependencies:
       '@metaplex-foundation/umi': '>= 0.8.2 < 1'
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
       package.json: 2.0.1
     dev: false
 
-  /@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-26W1NhQwDWmLOg/pBRYut7x/vEs/5kFS2sWVEY5/X0f2jJOLhnd4NaZQcq+5u+XZsXvm1jq2AtrRGPNK43oqWQ==}
     peerDependencies:
       '@metaplex-foundation/umi': '>= 0.8.2 < 1'
     dependencies:
-      '@metaplex-foundation/mpl-toolbox': 0.9.4(@metaplex-foundation/umi@0.8.2)
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/mpl-toolbox': 0.9.4(@metaplex-foundation/umi@0.8.10)
+      '@metaplex-foundation/umi': 0.8.10
     dev: false
 
-  /@metaplex-foundation/mpl-toolbox@0.9.4(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/mpl-toolbox@0.9.4(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-fd6JxfoLbj/MM8FG2x91KYVy1U6AjBQw4qjt7+Da3trzQaWnSaYHDcYRG/53xqfvZ9qofY1T2t53GXPlD87lnQ==}
     peerDependencies:
       '@metaplex-foundation/umi': '>= 0.8.2 < 1'
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
     dev: false
 
-  /@metaplex-foundation/umi-bundle-tests@0.8.3(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0):
+  /@metaplex-foundation/umi-bundle-tests@0.8.3(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0):
     resolution: {integrity: sha512-DwY6TtO/WaVDdHndkx/4YgpFVOey7xN+bGLomnr7ii0YxdZkgE1fgB9kfatsUsIo7wYedm8kk08TpSpOydeL3Q==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.2
       '@solana/web3.js': ^1.72.0
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
-      '@metaplex-foundation/umi-eddsa-web3js': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
-      '@metaplex-foundation/umi-http-fetch': 0.8.9(@metaplex-foundation/umi@0.8.2)
-      '@metaplex-foundation/umi-program-repository': 0.8.9(@metaplex-foundation/umi@0.8.2)
-      '@metaplex-foundation/umi-rpc-web3js': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
-      '@metaplex-foundation/umi-serializer-data-view': 0.8.9(@metaplex-foundation/umi@0.8.2)
-      '@metaplex-foundation/umi-storage-mock': 0.8.9(@metaplex-foundation/umi@0.8.2)
-      '@metaplex-foundation/umi-transaction-factory-web3js': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi': 0.8.10
+      '@metaplex-foundation/umi-eddsa-web3js': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi-http-fetch': 0.8.9(@metaplex-foundation/umi@0.8.10)
+      '@metaplex-foundation/umi-program-repository': 0.8.9(@metaplex-foundation/umi@0.8.10)
+      '@metaplex-foundation/umi-rpc-web3js': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi-serializer-data-view': 0.8.9(@metaplex-foundation/umi@0.8.10)
+      '@metaplex-foundation/umi-storage-mock': 0.8.9(@metaplex-foundation/umi@0.8.10)
+      '@metaplex-foundation/umi-transaction-factory-web3js': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
       '@solana/web3.js': 1.73.0
     transitivePeerDependencies:
       - encoding
     dev: true
 
-  /@metaplex-foundation/umi-eddsa-web3js@0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0):
+  /@metaplex-foundation/umi-eddsa-web3js@0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0):
     resolution: {integrity: sha512-ltaQ5eH73NHOAZ+Qtt5+H+pFbahSSEEzs34tV2trtyr6zrYrawOuHqxvLkiduhdVFe8A05EqQGwFUA6qrx6z9g==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
       '@solana/web3.js': ^1.72.0
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi': 0.8.10
+      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
       '@noble/curves': 1.2.0
       '@solana/web3.js': 1.73.0
     dev: true
 
-  /@metaplex-foundation/umi-http-fetch@0.8.9(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/umi-http-fetch@0.8.9(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-gbnW0HrSyt3UlA50TSF2taQTK9/mHUtptd87GZsfmGiEZpnI/LlyZVgfBz7eW8+liwBGN7QarYM3uElyrKlERA==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
       node-fetch: 2.7.0
     transitivePeerDependencies:
       - encoding
@@ -2119,12 +2119,12 @@ packages:
   /@metaplex-foundation/umi-options@0.8.9:
     resolution: {integrity: sha512-jSQ61sZMPSAk/TXn8v8fPqtz3x8d0/blVZXLLbpVbo2/T5XobiI6/MfmlUosAjAUaQl6bHRF8aIIqZEFkJiy4A==}
 
-  /@metaplex-foundation/umi-program-repository@0.8.9(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/umi-program-repository@0.8.9(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-Q6uNH+zTDiXwsL8l/fhNnCyd9ztblDxCkM8hhPbngHqDhxpedvopWEIopHzmkomngle+biXlPJfb+eQrGygklQ==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
     dev: true
 
   /@metaplex-foundation/umi-public-keys@0.8.9:
@@ -2132,23 +2132,23 @@ packages:
     dependencies:
       '@metaplex-foundation/umi-serializers-encodings': 0.8.9
 
-  /@metaplex-foundation/umi-rpc-web3js@0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0):
+  /@metaplex-foundation/umi-rpc-web3js@0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0):
     resolution: {integrity: sha512-usG4ty361K8toxL8FcDVeBoQNpSolQwYvHSwsFlMGvfCvi90GVJQwZM/7QXnkr2LJ08Nu6aQiNqX1j+pmCmetw==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
       '@solana/web3.js': ^1.72.0
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi': 0.8.10
+      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
       '@solana/web3.js': 1.73.0
     dev: true
 
-  /@metaplex-foundation/umi-serializer-data-view@0.8.9(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/umi-serializer-data-view@0.8.9(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-LRTxq/DjV6dCLBQ9k+rDBOhT/xk2I7tCoVGf/6MQRi1Ps7QTy6oN7BQmR6Cj12YxfSWDm2E1KVHkfSbb1qZOXQ==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
     dev: true
 
   /@metaplex-foundation/umi-serializers-core@0.8.9:
@@ -2173,38 +2173,38 @@ packages:
       '@metaplex-foundation/umi-serializers-encodings': 0.8.9
       '@metaplex-foundation/umi-serializers-numbers': 0.8.9
 
-  /@metaplex-foundation/umi-storage-mock@0.8.9(@metaplex-foundation/umi@0.8.2):
+  /@metaplex-foundation/umi-storage-mock@0.8.9(@metaplex-foundation/umi@0.8.10):
     resolution: {integrity: sha512-JZvpHjLe73cfXg59fGw+ufk9qO0LnLGJf5cvcHIn8MujCi+AlZZQUjG/pfH0pGu9/qOHrpFlah3v56ds5PjsfQ==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
     dev: true
 
-  /@metaplex-foundation/umi-transaction-factory-web3js@0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0):
+  /@metaplex-foundation/umi-transaction-factory-web3js@0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0):
     resolution: {integrity: sha512-zhO598jmDzaNUJvxapkC5+RfL+eU6RvkIvM4wsc2sfUSE15ekO8Psq/vlzWQXub4ks5TiaBwjSz700+eSlAR1Q==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
       '@solana/web3.js': ^1.72.0
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0)
+      '@metaplex-foundation/umi': 0.8.10
+      '@metaplex-foundation/umi-web3js-adapters': 0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0)
       '@solana/web3.js': 1.73.0
     dev: true
 
-  /@metaplex-foundation/umi-web3js-adapters@0.8.9(@metaplex-foundation/umi@0.8.2)(@solana/web3.js@1.73.0):
+  /@metaplex-foundation/umi-web3js-adapters@0.8.9(@metaplex-foundation/umi@0.8.10)(@solana/web3.js@1.73.0):
     resolution: {integrity: sha512-WKdWUEiDnoWKKEETy6DjLWyHlMwKi5OPJ6eeApeui6ITkTTAs3z3BAf3NYDYywmN/DgeXPIbJkwwkwfvcHg3xw==}
     peerDependencies:
       '@metaplex-foundation/umi': ^0.8.9
       '@solana/web3.js': ^1.72.0
     dependencies:
-      '@metaplex-foundation/umi': 0.8.2
+      '@metaplex-foundation/umi': 0.8.10
       '@solana/web3.js': 1.73.0
       buffer: 6.0.3
     dev: true
 
-  /@metaplex-foundation/umi@0.8.2:
-    resolution: {integrity: sha512-HfMcV9nILwavrS+Rv7FO5k7eRp4NMDxKAcx3ebeRF4fOvZ1rx5B/IthpN1G1frWkdqOOke1uWH112imEJHpqmQ==}
+  /@metaplex-foundation/umi@0.8.10:
+    resolution: {integrity: sha512-iGuGIfJh2+YFvUIkZ0nB/69EsQcaoq89DDPRPYvPBtOunfv8TH8SNrwcsXHlp9aBtn5FGKCPx3V3X/eurB32Fg==}
     dependencies:
       '@metaplex-foundation/umi-options': 0.8.9
       '@metaplex-foundation/umi-public-keys': 0.8.9
@@ -2619,7 +2619,7 @@ packages:
       '@types/node': 12.20.55
     dev: true
 
-  /@typescript-eslint/eslint-plugin@5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.6.2):
+  /@typescript-eslint/eslint-plugin@5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.9.5):
     resolution: {integrity: sha512-T6V6fCD2U0YesOedvydTnrNtsC8E+c2QzpawIpDdlaObX0OX5dLo7tLU5c64FhTZvA1Xrdim+cXDI7NPsVx8Cg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2630,8 +2630,8 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/experimental-utils': 5.0.0(eslint@8.0.1)(typescript@4.6.2)
-      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.6.2)
+      '@typescript-eslint/experimental-utils': 5.0.0(eslint@8.0.1)(typescript@4.9.5)
+      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.9.5)
       '@typescript-eslint/scope-manager': 5.0.0
       debug: 4.3.4
       eslint: 8.0.1
@@ -2639,13 +2639,13 @@ packages:
       ignore: 5.2.4
       regexpp: 3.2.0
       semver: 7.5.4
-      tsutils: 3.21.0(typescript@4.6.2)
-      typescript: 4.6.2
+      tsutils: 3.21.0(typescript@4.9.5)
+      typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/experimental-utils@5.0.0(eslint@8.0.1)(typescript@4.6.2):
+  /@typescript-eslint/experimental-utils@5.0.0(eslint@8.0.1)(typescript@4.9.5):
     resolution: {integrity: sha512-Dnp4dFIsZcPawD6CT1p5NibNUQyGSEz80sULJZkyhyna8AEqArmfwMwJPbmKzWVo4PabqNVzHYlzmcdLQWk+pg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2654,7 +2654,7 @@ packages:
       '@types/json-schema': 7.0.12
       '@typescript-eslint/scope-manager': 5.0.0
       '@typescript-eslint/types': 5.0.0
-      '@typescript-eslint/typescript-estree': 5.0.0(typescript@4.6.2)
+      '@typescript-eslint/typescript-estree': 5.0.0(typescript@4.9.5)
       eslint: 8.0.1
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0(eslint@8.0.1)
@@ -2663,7 +2663,7 @@ packages:
       - typescript
     dev: true
 
-  /@typescript-eslint/parser@5.46.1(eslint@8.0.1)(typescript@4.6.2):
+  /@typescript-eslint/parser@5.46.1(eslint@8.0.1)(typescript@4.9.5):
     resolution: {integrity: sha512-RelQ5cGypPh4ySAtfIMBzBGyrNerQcmfA1oJvPj5f+H4jI59rl9xxpn4bonC0tQvUKOEN7eGBFWxFLK3Xepneg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2675,10 +2675,10 @@ packages:
     dependencies:
       '@typescript-eslint/scope-manager': 5.46.1
       '@typescript-eslint/types': 5.46.1
-      '@typescript-eslint/typescript-estree': 5.46.1(typescript@4.6.2)
+      '@typescript-eslint/typescript-estree': 5.46.1(typescript@4.9.5)
       debug: 4.3.4
       eslint: 8.0.1
-      typescript: 4.6.2
+      typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2709,7 +2709,7 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@typescript-eslint/typescript-estree@5.0.0(typescript@4.6.2):
+  /@typescript-eslint/typescript-estree@5.0.0(typescript@4.9.5):
     resolution: {integrity: sha512-V/6w+PPQMhinWKSn+fCiX5jwvd1vRBm7AX7SJQXEGQtwtBvjMPjaU3YTQ1ik2UF1u96X7tsB96HMnulG3eLi9Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2724,13 +2724,13 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      tsutils: 3.21.0(typescript@4.6.2)
-      typescript: 4.6.2
+      tsutils: 3.21.0(typescript@4.9.5)
+      typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@typescript-eslint/typescript-estree@5.46.1(typescript@4.6.2):
+  /@typescript-eslint/typescript-estree@5.46.1(typescript@4.9.5):
     resolution: {integrity: sha512-j9W4t67QiNp90kh5Nbr1w92wzt+toiIsaVPnEblB2Ih2U9fqBTyqV9T3pYWZBRt6QoMh/zVWP59EpuCjc4VRBg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -2745,8 +2745,8 @@ packages:
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.5.4
-      tsutils: 3.21.0(typescript@4.6.2)
-      typescript: 4.6.2
+      tsutils: 3.21.0(typescript@4.9.5)
+      typescript: 4.9.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4669,8 +4669,8 @@ packages:
       eslint: ^7.32.0 || ^8.2.0
       eslint-plugin-import: ^2.25.3
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.6.2)
-      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.6.2)
+      '@typescript-eslint/eslint-plugin': 5.0.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)(typescript@4.9.5)
+      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.9.5)
       eslint: 8.0.1
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.26.0)(eslint@8.0.1)
       eslint-plugin-import: 2.26.0(@typescript-eslint/parser@5.46.1)(eslint@8.0.1)
@@ -4716,7 +4716,7 @@ packages:
       eslint-import-resolver-webpack:
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.6.2)
+      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.9.5)
       debug: 3.2.7
       eslint: 8.0.1
       eslint-import-resolver-node: 0.3.9
@@ -4734,7 +4734,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.6.2)
+      '@typescript-eslint/parser': 5.46.1(eslint@8.0.1)(typescript@4.9.5)
       array-includes: 3.1.6
       array.prototype.flat: 1.3.1
       debug: 2.6.9
@@ -8773,14 +8773,14 @@ packages:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: true
 
-  /tsutils@3.21.0(typescript@4.6.2):
+  /tsutils@3.21.0(typescript@4.9.5):
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
     peerDependencies:
       typescript: '>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta'
     dependencies:
       tslib: 1.14.1
-      typescript: 4.6.2
+      typescript: 4.9.5
     dev: true
 
   /type-check@0.3.2:
@@ -8863,7 +8863,7 @@ packages:
     peerDependencies:
       typedoc: 0.22.x || 0.23.x
     dependencies:
-      typedoc: 0.23.16(typescript@4.6.2)
+      typedoc: 0.23.16(typescript@4.9.5)
     dev: true
 
   /typedoc-plugin-missing-exports@1.0.0(typedoc@0.23.16):
@@ -8871,10 +8871,10 @@ packages:
     peerDependencies:
       typedoc: 0.22.x || 0.23.x
     dependencies:
-      typedoc: 0.23.16(typescript@4.6.2)
+      typedoc: 0.23.16(typescript@4.9.5)
     dev: true
 
-  /typedoc@0.23.16(typescript@4.6.2):
+  /typedoc@0.23.16(typescript@4.9.5):
     resolution: {integrity: sha512-rumYsCeNRXlyuZVzefD7050n7ptL2uudsCJg50dY0v/stKniqIlRpvx/F/6expC0/Q6Dbab+g/JpZuB7Sw90FA==}
     engines: {node: '>= 14.14'}
     hasBin: true
@@ -8885,7 +8885,7 @@ packages:
       marked: 4.3.0
       minimatch: 5.1.6
       shiki: 0.11.1
-      typescript: 4.6.2
+      typescript: 4.9.5
     dev: true
 
   /typescript@4.3.4:
@@ -8894,8 +8894,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript@4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+  /typescript@4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
