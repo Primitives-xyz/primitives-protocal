@@ -38,7 +38,7 @@ impl Voucher {
                 nonce.to_string().as_ref(),
                 &[bump],
             ],
-            &crate::MPL_BUBBLEGUM_ID,
+            &crate::PRIMITIVES_PROTRACTOR_ID,
         )
     }
 
@@ -49,7 +49,7 @@ impl Voucher {
                 merkle_tree.as_ref(),
                 nonce.to_string().as_ref(),
             ],
-            &crate::MPL_BUBBLEGUM_ID,
+            &crate::PRIMITIVES_PROTRACTOR_ID,
         )
     }
 

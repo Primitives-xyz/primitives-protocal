@@ -102,8 +102,8 @@ export function burn(
 ): TransactionBuilder {
   // Program ID.
   const programId = context.programs.getPublicKey(
-    'mplBubblegum',
-    'BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY'
+    'primitivesProtractor',
+    '2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW'
   );
 
   // Accounts.

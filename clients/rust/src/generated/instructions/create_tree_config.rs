@@ -72,7 +72,7 @@ impl CreateTreeConfig {
         data.append(&mut args);
 
         solana_program::instruction::Instruction {
-            program_id: crate::MPL_BUBBLEGUM_ID,
+            program_id: crate::PRIMITIVES_PROTRACTOR_ID,
             accounts,
             data,
         }
@@ -356,7 +356,7 @@ impl<'a, 'b> CreateTreeConfigCpi<'a, 'b> {
         data.append(&mut args);
 
         let instruction = solana_program::instruction::Instruction {
-            program_id: crate::MPL_BUBBLEGUM_ID,
+            program_id: crate::PRIMITIVES_PROTRACTOR_ID,
             accounts,
             data,
         };

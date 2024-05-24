@@ -692,6 +692,22 @@
       }
     },
     {
+      "name": "Properties",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "key",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
       "name": "Uses",
       "type": {
         "kind": "struct",
@@ -745,7 +761,7 @@
             "name": "properties",
             "type": {
               "vec": {
-                "defined": "(String,String)"
+                "defined": "Properties"
               }
             }
           },
@@ -780,7 +796,11 @@
             "name": "properties",
             "type": {
               "vec": {
+<<<<<<< HEAD
+                "defined": "Properties"
+=======
                 "defined": "(String,String)"
+>>>>>>> 99344e2f2282e14b30b64ecfa50b1b54f60e1a35
               }
             }
           },
@@ -819,7 +839,11 @@
             "name": "properties",
             "type": {
               "vec": {
+<<<<<<< HEAD
+                "defined": "Properties"
+=======
                 "defined": "(String,String)"
+>>>>>>> 99344e2f2282e14b30b64ecfa50b1b54f60e1a35
               }
             }
           },
@@ -854,7 +878,11 @@
             "name": "properties",
             "type": {
               "vec": {
+<<<<<<< HEAD
+                "defined": "Properties"
+=======
                 "defined": "(String,String)"
+>>>>>>> 99344e2f2282e14b30b64ecfa50b1b54f60e1a35
               }
             }
           },
@@ -1019,28 +1047,16 @@
             "name": "Unknown"
           },
           {
-            "name": "MintV1"
+            "name": "MintEdgeV1"
           },
           {
-            "name": "Redeem"
-          },
-          {
-            "name": "CancelRedeem"
-          },
-          {
-            "name": "Transfer"
+            "name": "MintNodeV1"
           },
           {
             "name": "Delegate"
           },
           {
-            "name": "DecompressV1"
-          },
-          {
             "name": "Compress"
-          },
-          {
-            "name": "Burn"
           },
           {
             "name": "CreateTree"
@@ -1050,21 +1066,6 @@
           },
           {
             "name": "UnverifyCreator"
-          },
-          {
-            "name": "VerifyCollection"
-          },
-          {
-            "name": "UnverifyCollection"
-          },
-          {
-            "name": "SetAndVerifyCollection"
-          },
-          {
-            "name": "MintToCollectionV1"
-          },
-          {
-            "name": "SetDecompressibleState"
           },
           {
             "name": "UpdateMetadata"

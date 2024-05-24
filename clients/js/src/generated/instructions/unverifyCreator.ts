@@ -34,11 +34,7 @@ import {
   expectSome,
   getAccountMetasAndSigners,
 } from '../shared';
-import {
-  MetadataArgs,
-  MetadataArgsArgs,
-  getMetadataArgsSerializer,
-} from '../types';
+import { NodeArgs, NodeArgsArgs, getNodeArgsSerializer } from '../types';
 
 // Accounts.
 export type UnverifyCreatorInstructionAccounts = {
@@ -61,7 +57,7 @@ export type UnverifyCreatorInstructionData = {
   creatorHash: Uint8Array;
   nonce: bigint;
   index: number;
-  metadata: MetadataArgs;
+  metadata: NodeArgs;
 };
 
 export type UnverifyCreatorInstructionDataArgs = {
@@ -70,7 +66,7 @@ export type UnverifyCreatorInstructionDataArgs = {
   creatorHash: Uint8Array;
   nonce: number | bigint;
   index: number;
-  metadata: MetadataArgsArgs;
+  metadata: NodeArgsArgs;
 };
 
 export function getUnverifyCreatorInstructionDataSerializer(): Serializer<
@@ -90,7 +86,7 @@ export function getUnverifyCreatorInstructionDataSerializer(): Serializer<
         ['creatorHash', bytes({ size: 32 })],
         ['nonce', u64()],
         ['index', u32()],
-        ['metadata', getMetadataArgsSerializer()],
+        ['metadata', getNodeArgsSerializer()],
       ],
       { description: 'UnverifyCreatorInstructionData' }
     ),
@@ -120,8 +116,8 @@ export function unverifyCreator(
 ): TransactionBuilder {
   // Program ID.
   const programId = context.programs.getPublicKey(
-    'mplBubblegum',
-    'BGUMAp9Gq7iTEuizy4pqaxsTyUCBK68MDfK752saRPUY'
+    'primitivesProtractor',
+    '2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW'
   );
 
   // Accounts.
