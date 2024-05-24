@@ -1,4 +1,4 @@
-# Contributing to Metaplex Bubblegum
+# Contributing to Primitives Protocol 
 
 This is a quick guide to help you contribute to Metaplex Bubblegum.
 
