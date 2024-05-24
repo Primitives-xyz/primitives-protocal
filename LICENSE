@@ -1,17 +1,17 @@
-                     METAPLEX(TM) NFT OPEN SOURCE LICENSE
+                     Primitives(TM) Graph OPEN SOURCE LICENSE
 
 
                             Version 1.0, Oct. 2022
 
                                    PREAMBLE
 
-As the publisher of the non-fungible token (NFT) standard for the Solana
+As the publisher of the non-fungible graphs (NFG) standard for the Solana
 blockchain, we believe in the set of principles that have guided open source
 software development models over the years – Transparency, Collaboration,
 Release Early and Often, Community, and Inclusive Meritocracy. Thus, for our 
 code repository, we have adopted an “Apache-style” licensing scheme. To be
-true to our NFT and crypto legacy, however, we do impose some restrictions on 
-modifying our code that we believe promote the purpose and promise of NFTs in 
+true to our NFG and crypto legacy, however, we do impose some restrictions on 
+modifying our code that we believe promote the purpose and promise of NFGs in 
 order to protect the web3 ecosystem.
 
          TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
@@ -53,11 +53,11 @@ included in or attached to the work, an example is provided below:
 
 ------
 Copyright © [yyyy] [name of copyright owner]
-Licensed under the Metaplex(TM) NFT Open Source License, Version 1.0 (the 
+Licensed under the Primitives(TM) Graph Open Source License, Version 1.0 (the 
 “License”). Use of this file is only permitted when in compliance with the 
 License. You may obtain a copy of the License at:
-https://github.com/metaplex-foundation/
-  metaplex-program-library/blob/master/LICENSE
+https://github.com/primitives-xyz/
+  primitives-protocol/blob/master/LICENSE
 
 Unless required by applicable law or agreed to in writing, software 
 distributed under the License is distributed on an “AS IS” BASIS, WITHOUT 
@@ -232,11 +232,10 @@ reason of your accepting any such warranty or additional liability.
 
   10. Revised Versions of this License. 
   
-  The Metaplex Foundation may publish revised, newer versions of this License 
+  Primitives XYZ may publish revised, newer versions of this License 
 from time to time. Such new versions will be similar in spirit to the present 
 version but may differ in detail to address new problems or concerns. Each 
 version will be given a distinguishing version number. If the Work specifies a 
-certain version of the Metaplex(TM) NFT Open Source License, then that version 
-shall apply. If the Work does not specify a version number of the Metaplex(TM) 
-NFT Open Source License, then the latest version published by the Metaplex 
-Foundation shall apply.
+certain version of the Primitives(TM) Graph Open Source License, then that version 
+shall apply. If the Work does not specify a version number of the Primitives(TM) 
+Graph Open Source License, then the latest version published by the Primitives XYZ shall apply.
