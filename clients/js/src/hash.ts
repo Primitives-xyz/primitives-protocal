@@ -12,7 +12,7 @@ import {
   getCreatorSerializer,
   getNodeArgsSerializer,
 } from './generated';
-import { findLeafAssetIdPda } from './leafAssetId';
+import { findLeafNodeOrEdgeIdPda } from './leafAssetId';
 
 export function hash(input: Uint8Array | Uint8Array[]): Uint8Array {
   return keccak_256(Array.isArray(input) ? mergeBytes(input) : input);
@@ -31,7 +31,7 @@ export function hashLeaf(
 ): Uint8Array {
   const delegate = input.delegate ?? input.owner;
   const nftVersion = input.nftVersion ?? 1;
-  const [leafAssetId] = findLeafAssetIdPda(context, {
+  const [leafAssetId] = findLeafNodeOrEdgeIdPda(context, {
     merkleTree: input.merkleTree,
     leafIndex: input.leafIndex,
   });

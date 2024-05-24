@@ -14,7 +14,7 @@ use state::{
     metaplex_adapter::EdgeArgs, metaplex_adapter::NodeArgs, metaplex_adapter::UpdateNodeArgs,
 };
 
-declare_id!("2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW");
+declare_id!("graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE");
 
 pub enum InstructionName {
     Unknown,
@@ -48,11 +48,7 @@ pub fn get_instruction_type(full_bytes: &[u8]) -> InstructionName {
 }
 
 #[program]
-<<<<<<< HEAD:programs/protractor/program/src/lib.rs
 pub mod protractor {
-=======
-pub mod primtives-protocol {
->>>>>>> 99344e2f2282e14b30b64ecfa50b1b54f60e1a35:programs/bubblegum/program/src/lib.rs
 
     use self::state::metaplex_adapter::{EdgeArgs, NodeArgs};
 

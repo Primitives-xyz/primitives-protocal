@@ -9,6 +9,7 @@ cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
 [workspace]
+resolver = "2"
 members = [
   "program",
 ]

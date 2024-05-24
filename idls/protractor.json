@@ -925,7 +925,7 @@
                 "type": "u64"
               },
               {
-                "name": "data_hash",
+                "name": "dataHash",
                 "type": {
                   "array": [
                     "u8",
@@ -934,7 +934,7 @@
                 }
               },
               {
-                "name": "creator_hash",
+                "name": "creatorHash",
                 "type": {
                   "array": [
                     "u8",
@@ -1275,9 +1275,9 @@
     }
   ],
   "metadata": {
-    "address": "2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW",
+    "address": "graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE",
     "origin": "anchor",
-    "binaryVersion": "0.27.0",
-    "libVersion": "0.28.0"
+    "binaryVersion": "0.29.0",
+    "libVersion": "0.29.0"
   }
 }

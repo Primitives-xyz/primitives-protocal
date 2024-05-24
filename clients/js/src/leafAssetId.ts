@@ -11,7 +11,7 @@ import {
   getLeafSchemaSerializer,
 } from './generated';
 
-export function findLeafAssetIdPda(
+export function findLeafNodeOrEdgeIdPda(
   context: Pick<Context, 'programs' | 'eddsa'>,
   seeds: {
     merkleTree: PublicKey;

@@ -2,5 +2,6 @@
   "rust-analyzer.linkedProjects": [
     "./clients/rust/Cargo.toml",
     "./programs/protractor/Cargo.toml"
-  ]
+  ],
+  "cSpell.words": ["PWGGE"]
 }

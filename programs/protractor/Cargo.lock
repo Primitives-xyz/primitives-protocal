@@ -2857,27 +2857,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "primitives-protocol"
-version = "0.0.1"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "async-trait",
- "bytemuck",
- "mpl-token-metadata",
- "num-traits",
- "solana-program",
- "solana-program-test",
- "solana-sdk",
- "spl-account-compression",
- "spl-associated-token-account",
- "spl-concurrent-merkle-tree",
- "spl-merkle-tree-reference",
- "spl-noop 0.1.3",
- "spl-token",
-]
-
-[[package]]
 name = "proc-macro-crate"
 version = "0.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2946,7 +2925,6 @@ dependencies = [
  "anchor-spl",
  "async-trait",
  "bytemuck",
- "mpl-token-auth-rules",
  "mpl-token-metadata",
  "num-traits",
  "solana-program",

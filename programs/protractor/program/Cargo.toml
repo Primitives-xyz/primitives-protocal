@@ -1,17 +1,11 @@
 [package]
-<<<<<<<< HEAD:programs/protractor/program/Cargo.toml
+
 name = "protractor"
 version = "0.12.0"
 description = "NFT Compression"
 authors = ["Metaplex Developers <dev@metaplex.com>"]
 repository = "https://github.com/primitives-xyz/primitives-protocol"
-========
-name = "primitives-protocol"
-version = "0.0.1"
-description = "Social Graph Compression"
-authors = ["Nicholas Oxford <n@primitives.xyz>"]
-repository = "https://github.com/metaplex-foundation/mpl-bubblegum"
->>>>>>>> 99344e2f2282e14b30b64ecfa50b1b54f60e1a35:programs/primitives-protocol/program/Cargo.toml
+
 license-file = "../../../LICENSE"
 edition = "2021"
 readme = "../README.md"

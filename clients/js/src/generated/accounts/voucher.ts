@@ -131,7 +131,7 @@ export function getVoucherGpaBuilder(
 ) {
   const programId = context.programs.getPublicKey(
     'primitivesProtractor',
-    '2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW'
+    'graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE'
   );
   return gpaBuilder(context, programId)
     .registerFields<{
@@ -163,7 +163,7 @@ export function findVoucherPda(
 ): Pda {
   const programId = context.programs.getPublicKey(
     'primitivesProtractor',
-    '2NzwmRNVaGAy7hbRdJiJxUCcJRMu1iBFmJmZ87PG87yW'
+    'graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE'
   );
   return context.eddsa.findPda(programId, [
     string({ size: 'variable' }).serialize('voucher'),
