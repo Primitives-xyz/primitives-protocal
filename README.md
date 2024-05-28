@@ -2,7 +2,7 @@
  Primitives Protocol 
 </h1>
 <p>
-  Create and manage compressed NFTs on Solana. Compressed NFTs make it possible to scale the creation of NFTs to new orders of magnitude by rethinking the way we store data on-chain.
+  Create and manage on chain social graphs.  
 </p>
 <p align="center">
   <img width="600" alt="Primitives Protocol" src="graph.jpeg" />
