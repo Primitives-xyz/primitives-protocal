@@ -8,7 +8,8 @@
 use solana_program::{pubkey, pubkey::Pubkey};
 
 /// `primitives_protractor` program ID.
-pub const PRIMITIVES_PROTRACTOR_ID: Pubkey = pubkey!("graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE");
+pub const PRIMITIVES_PROTRACTOR_ID: Pubkey =
+    pubkey!("GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh");
 
 /// `spl_account_compression` program ID.
 pub const SPL_ACCOUNT_COMPRESSION_ID: Pubkey =

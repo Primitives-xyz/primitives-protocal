@@ -14,7 +14,7 @@ use state::{
     metaplex_adapter::EdgeArgs, metaplex_adapter::NodeArgs, metaplex_adapter::UpdateNodeArgs,
 };
 
-declare_id!("graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE");
+declare_id!("GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh");
 
 pub enum InstructionName {
     Unknown,

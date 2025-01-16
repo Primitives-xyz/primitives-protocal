@@ -12,7 +12,7 @@ module.exports = {
     programs: [
       {
         label: "Mpl Bubblegum",
-        programId: "graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE",
+        programId: "GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh",
         deployPath: getProgram("bubblegum.so"),
       },
       {

@@ -86,7 +86,7 @@ export function mintNodeV1(
   // Program ID.
   const programId = context.programs.getPublicKey(
     'primitivesProtractor',
-    'graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE'
+    'GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh'
   );
 
   // Accounts.

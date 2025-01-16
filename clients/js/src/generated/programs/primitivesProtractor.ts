@@ -18,7 +18,7 @@ import {
 } from '../errors';
 
 export const PRIMITIVES_PROTRACTOR_PROGRAM_ID =
-  'graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE' as PublicKey<'graphmieBkazqwUYt9HJZz5FZmGVngPcrRwCZ4PWGGE'>;
+  'GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh' as PublicKey<'GraphUyqhPmEAckWzi7zAvbvUTXf8kqX7JtuvdGYRDRh'>;
 
 export function createPrimitivesProtractorProgram(): Program {
   return {
